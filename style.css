@@ -94,9 +94,10 @@ h3{
         padding: 60px;
         margin: 20px;
         display: inline-block;
-        
+        justify-content: center;
       }
       .head2{
+        justify-content: center;
         text-align: center;
         margin: 1em;
       color: aliceblue;
@@ -119,12 +120,13 @@ h3{
                   margin: 20px;
                   position: relative;
                   float:left;
-                  
+                  justify-content: center;
                   
                 }
         .box-contain{
 display: flex;
 position: center;
+
         }
         .greet{
             color: black
@@ -188,6 +190,7 @@ width: 100%;
     margin: 20px;
     justify-content: center;
     display: flex;
+
 }
 
 h5.crea{
