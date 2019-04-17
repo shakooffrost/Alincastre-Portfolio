@@ -28,7 +28,7 @@ background:#1e1e1e;
     height: 100%;
 }
 .hero-image {
-    background: radial-gradient(rgba(0,0,0,.5) 0,rgba(0,0,0,.23) 40%,transparent 75%),url(s5.jpg);
+    background: radial-gradient(rgba(0,0,0,.5) 0,rgba(0,0,0,.23) 40%,transparent 75%),url(./photos/s5.jpg);
     background-size: cover;
     background-position: 0 0;
     height: 100%;
