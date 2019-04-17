@@ -1,0 +1,12 @@
+{
+    "name": "Anton's Portfolio",
+    "version": 2,
+    "builds": [
+        {
+            "use": "@now/static"
+        }
+    ],
+    "alias": [
+        "antoniverse.com"
+    ]
+}

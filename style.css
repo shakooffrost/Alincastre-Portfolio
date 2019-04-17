@@ -167,8 +167,9 @@ nav li {
     text-align: center;
 }
 .carousel-caption{
-color: #1e1e1e
+color: white;
 }
+
 .img-fluid{
     margin:auto;
 }
@@ -180,6 +181,9 @@ height: 500px;
 width: 100%;
 }
 
-.carousel-caption{
-    color: azure;
+h5.crea{
+    color: #1e1e1e;
+}
+p.crea{
+    color: #1e1e1e;
 }

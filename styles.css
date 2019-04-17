@@ -1,30 +1,4 @@
-/* body{
-    margin: 0;
-    padding: 0;
-    background: #ccc;
-}
 
-.nav ul{
-    list-style:none;
-    background: #663366;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-.nav li{
-    display: inline-block;
-}
-.nav a{
-    text-decoration: none;
-    color: #fff;
-    display: block;
-    padding: 15px;
-    font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
-} */
-
- 
-  
   .nav li{
       display: inline-block;
   }
@@ -50,3 +24,44 @@
       background: #000;
       transition: 1s;
   }
+  .wrapper{
+       text-align: center;
+  }
+/*******my works*******/
+
+.container{
+    width: 1280px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container .box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: wheat;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 300px;
+    max-height: 300px;
+    overflow: hidden;
+
+}
+.container .box .imgBox{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-content: center;
+}
+.container .box .imgBox img{
+    margin: 10px;
+    max-width: 280px;
+    max-height: 300px;
+    transition: transform 0.5s;
+}
+.container .box:hover .imgBox img{
+transform: scale(1.2);
+}
+
