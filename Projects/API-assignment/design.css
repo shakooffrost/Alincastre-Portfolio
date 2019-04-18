@@ -1,0 +1,67 @@
+body {
+  background-image:url('d.png');
+  background-repeat: fixed;
+  background-position: cover;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+
+  .div {
+      display: inline;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  button{
+    height:20px; 
+    width:100px; 
+    margin: -20px -50px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+#lyrics{
+  /* width: 1280px;
+  min-height: 500px;
+  background: #fff;
+  margin: 70px auto 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+  justify-content: center;
+  text-align: center;
+      margin: 1em;
+    color: #1e1e1e;
+    width: 100%;
+    
+     
+}
+
+.box{
+  justify-content: center;
+  text-align: center;
+      margin: 1em;
+      background: gray;
+    color: white;
+    width: 500px;
+        border: 5px solid black;
+        padding: 60px;
+        margin: 20px;
+        display: inline-block;
+        max-height: 600px;
+}
+.container{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+body{
+  justify-content: center;
+}
+
+h1{
+text-align: center;
+
+}
