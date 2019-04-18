@@ -1,0 +1,29 @@
+body{
+    background: url(avengers.png);
+    background-repeat: fixed;
+  background-position: cover;
+}
+
+form{
+color: white;
+
+margin: 0 auto;
+
+}
+
+h1{
+    color:white;
+    width: 100%;
+margin: 0 auto;
+
+}
+.container{
+    border: solid 2px white;
+    width: 30%;
+    background-color: #1e1e1e;
+}
+.submit{
+width: 100%;
+text-align: center;
+padding: 10px;
+}
