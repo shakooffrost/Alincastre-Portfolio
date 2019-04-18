@@ -90,5 +90,14 @@ footer {
       color: white;
  
   } 
+  .contact-body{
+    position: relative;
+  }
 
- 
+ .contact-footer{
+  margin-top: 0px;
+  padding: 0px;
+  position: absolute;
+  width: 100%;
+  bottom: -100%;
+ }
